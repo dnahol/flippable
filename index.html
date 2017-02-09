@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize, Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+  <title>Candidates</title>
+
+  <!-- css3-mediaqueries.js for IE8 or older -->
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+  <!-- Materialize, Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  <style type="text/css">
+  #header {
+    background-color: #1B678E;
+  }
+  #menu {
+    /*hover: #2796C4*/
+  }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div id="header" class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" placeholder="Search for upcoming elections" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+
+  <div class="divider"></div>
+
+  <div class="row">
+    <ul id="menu" class="section z-depth-3 collapsible col s4" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header waves-effect waves-teal"><span class="new badge">4</span><i class="material-icons">filter_drama</i>Deleware</div>
+        <div class="collapsible-body">
+          <ul>
+            <li>
+              <a href="#">Stephanie Hansen</a>
+            </li>
+            <li>
+              <a href="#">Other Candidate</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header waves-effect waves-teal"><span class="badge">1</span><i class="material-icons">place</i>Georgia</div>
+        <div class="collapsible-body">
+          <ul>
+            <li>John Ossoff, US Senate</li>
+            <li>Other Candidate, Race</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div class="section z-depth-5 col s8" id="content">
+      <h2>Georgia</h2>
+
+      <div class="card">
+        <div class="responsive-image card-image">
+          <img src="images/stephanieHansen.jpg">
+          <span class="card-title">Stephanie Hansen</span>
+        </div>
+        <div class="card-content">
+          <p>Short Bio</p>
+        </div>
+        <div class="card-action">
+          <a href="https://secure.actblue.com/contribute/page/keepdeblue">Click here to donate to Stephanie Hansen</a>
+        </div>
+      </div>
+      <div class="card-panel blue">
+        <span class="white-text">Democrats will lose control of the State Senate if they lose one more seat to Republicans, making the 10th district crucial. The district is very close, won by an incumbent Democrat in 2014 by only 267 votes.
+
+          The election will be held on February 25th, with Democrat Stephanie Hansen facing off against Republican John Marino and Libertarian Joseph Lanzendorfer.
+        </span>
+      </div>
+
+
+
+      <div class="video-container">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/-3aWNaZPZro?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <table class="responsive-table">
+        <thead>
+          <tr>
+            <th data-field="id">Candidate</th>
+            <th data-field="name">Flippability Factor</th>
+            <th data-field="price">Overall Flippability Score</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Stephanie Hansen</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <footer class="page-footer white">
+    <div class="footer-copyright">
+      <div class="container black-text">
+        © 2014 Copyright Text
+        <a class="black-text right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+</body></html>

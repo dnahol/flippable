@@ -1,0 +1,94 @@
+[  
+   {  
+      "objectID":1,
+      "full_race_name": "Delaware's 10th State Senate District",
+      "state_abb": "DE",
+      "state": "Delaware",
+      "race_type": "State Senate",
+      "district": "10",
+      "candidate": "Stephanie Hansen",
+      "opponents": {
+        "republican": {
+          "candidate": "John Marino",
+          "url": null
+          },
+        "independent": {
+          "candidate": "Joseph Lanzendorfer",
+          "url": null
+          }
+        },
+      "election_date": "February 25",
+      "priority": 1,
+      "rank": 1,
+      "urls": {
+        "actblue": "https://secure.actblue.com/contribute/page/keepdeblue",
+        "cand_page": "http://www.hansenforsenate.org/",
+        "cand_image": "https://static1.squarespace.com/static/582b8e44c534a5c177d1be5d/5887d2e03e00be9093ee6a5b/5887d2f13e00be9093ee6b67/1486153383426/32260729660_fd59813a96_k.jpg?format=750w",
+        "cand_video": null,
+        "district_map": null,
+        "volunteer": null
+      },
+       "info": {
+        "phone": null,
+        "email": null,
+        "issues":["I feel strongly about Education", "I feel strongly about other things"],
+        "notes": []
+      }, 
+       "flippability": {
+        "score": null,
+        "factor1": null,
+        "factor2": null,
+        "factor3": null
+      },   
+      "_geoloc":{  
+         "lat":null,
+         "lng":null
+      }
+   },
+   {  
+      "objectID":2,
+      "full_race_name": "Georgia's 6th U.S. Congressional District",
+      "state_abb": "GA",
+      "state": "Georgia",
+      "race_type": "State Senate",
+      "district": "6",
+      "candidate": "Jon Ossoff",
+      "opponents": {
+        "republican": {
+          "candidate": null,
+          "url": null
+          },
+        "independent": {
+          "candidate": null,
+          "url": null
+          }
+        },
+      "election_date": "TBD",
+      "priority": 1,
+      "rank": 2,
+      "urls": {
+        "actblue": "https://secure.actblue.com/contribute/page/flipga6",
+        "cand_page": "https://electjon.com/",
+        "cand_image": "https://static1.squarespace.com/static/582b8e44c534a5c177d1be5d/5887d2e03e00be9093ee6a5b/5887d2f98419c20e9a7d1b81/1486426978254/download.jpeg?format=750w",
+        "cand_video": null,
+        "district_map": null,
+        "volunteer": "http://bit.ly/2jVIqAe"
+      },
+       "info": {
+        "phone": null,
+        "email": null,
+        "issues":["I feel strongly about Education", "I feel strongly about other things"],
+        "notes": ["Pending Tom Price's appointment to Trump's cabinet."]
+      }, 
+       "flippability": {
+        "score": null,
+        "factor1": null,
+        "factor2": null,
+        "factor3": null
+      },   
+      "_geoloc":{  
+         "lat":null,
+         "lng":null
+      }
+   }
+]
